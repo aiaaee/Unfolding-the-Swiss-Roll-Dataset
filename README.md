@@ -1,5 +1,6 @@
 # Unfolding-the-Swiss-Roll-Dataset
-<img width="auto" height="600" alt="image" src="https://github.com/user-attachments/assets/1638c54f-00f4-4f83-9939-607f0e738b53" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/1638c54f-00f4-4f83-9939-607f0e738b53" />
+
 
 
 Unfolding the Swiss Roll Dataset explores different approaches to analyzing and visualizing the famous Swiss Roll dataset — a classic benchmark in machine learning for studying clustering and manifold learning methods.
