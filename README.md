@@ -14,6 +14,7 @@ The **Swiss Roll** dataset is a synthetic 3D dataset commonly used to test algor
 - **Manifold Learning**  
 
 Its nonlinear, rolled-up structure makes it an excellent test case: simple clustering often fails to capture the underlying geometry, while manifold learning techniques can "unfold" the dataset into a meaningful 2D representation.  
+<img width="1395" height="525" alt="newplot (23)" src="https://github.com/user-attachments/assets/8801813b-2ee8-4fd3-b48f-82612915ae78" />
 
 ---
 
