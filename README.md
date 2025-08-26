@@ -1,4 +1,4 @@
-<img width="495" height="482" alt="image" src="https://github.com/user-attachments/assets/bf25ce90-c259-4931-9ee5-a539234a2b6d" /># Unfolding the Swiss Roll Dataset
+# Unfolding the Swiss Roll Dataset
 
 <img width="495" height="482" alt="image" src="https://github.com/user-attachments/assets/7cfd730a-5944-48b5-ae09-a7826208685f" />
 
@@ -23,11 +23,12 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 ### 1. **K-Means Clustering**
 - **Concept:** Partitions data into $k$ spherical clusters by minimizing within-cluster variance.  
 - **On Swiss Roll:** K-Means assigns clusters, but fails to respect the curved manifold structure — clusters are often sliced across the roll rather than along its natural unfolding.  
-![Uploading newplot (24).png…]()
+<img width="1395" height="525" alt="newplot (24)" src="https://github.com/user-attachments/assets/eda45204-47ab-49f9-a6b6-3577478bb9db" />
 
 ### 2. **Gaussian Mixture Model (GMM)**
 - **Concept:** A probabilistic model assuming data is generated from a mixture of Gaussian distributions with different means and covariances.  
 - **On Swiss Roll:** Provides more flexible, elliptical clusters compared to K-Means, but still cannot fully capture the intrinsic geometry of the rolled surface.  
+<img width="1395" height="525" alt="newplot (25)" src="https://github.com/user-attachments/assets/06c4cae0-a804-4e8b-9535-8397e962fc92" />
 
 ### 3. **Isomap**
 - **Concept:** A nonlinear dimensionality reduction technique that preserves **geodesic distances** between points by building a neighborhood graph and applying multidimensional scaling (MDS).  
