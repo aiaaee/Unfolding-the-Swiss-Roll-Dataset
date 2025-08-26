@@ -1,9 +1,7 @@
 # Unfolding-the-Swiss-Roll-Dataset
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/1638c54f-00f4-4f83-9939-607f0e738b53" />
-
-
-## Description
-Unfolding the Swiss Roll Dataset explores different approaches to analyzing and visualizing the famous Swiss Roll dataset — a classic benchmark in machine learning for studying clustering and manifold learning methods.
+This project explores the **Swiss Roll dataset**, a classical benchmark in machine learning used to study **clustering** and **manifold learning** methods.  
+The aim is to compare traditional clustering algorithms (such as K-Means and Gaussian Mixture Models) with modern manifold learning approaches (such as Isomap, Locally Linear Embedding, MDS, and t-SNE) in order to understand their strengths and limitations.  
 
 
 In this project:
