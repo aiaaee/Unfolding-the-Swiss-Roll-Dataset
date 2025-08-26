@@ -64,3 +64,15 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 - **MDS & t-SNE:** Useful visualizations, but less effective at faithfully unfolding the roll compared to Isomap and LLE.  
 
 ---
+## 📊 Key Takeaways
+- Clustering methods are limited for nonlinear manifolds like Swiss Roll.  
+- Manifold learning techniques (especially **Isomap** and **LLE**) reveal the true 2D structure of the dataset.  
+- This project highlights the importance of choosing algorithms aligned with the data’s geometry.  
+
+---
+
+## 🚀 Technologies & Libraries
+- **Python 3.10+**  
+- [scikit-learn](https://scikit-learn.org/)  
+- [plotly](https://plotly.com/python/)  
+- [numpy](https://numpy.org/)  
