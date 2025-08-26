@@ -23,7 +23,7 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 ### 1. **K-Means Clustering**
 - **Concept:** Partitions data into $k$ spherical clusters by minimizing within-cluster variance.  
 - **On Swiss Roll:** K-Means assigns clusters, but fails to respect the curved manifold structure — clusters are often sliced across the roll rather than along its natural unfolding.  
-<img width="1395" height="525" alt="newplot (24)" src="https://github.com/user-attachments/assets/eda45204-47ab-49f9-a6b6-3577478bb9db" />
+<img width="1395" height="525" alt="newplot (30)" src="https://github.com/user-attachments/assets/4b97de37-48dd-47eb-a6d7-93371b9a9e37" />
 
 ### 2. **Gaussian Mixture Model (GMM)**
 - **Concept:** A probabilistic model assuming data is generated from a mixture of Gaussian distributions with different means and covariances.  
@@ -33,18 +33,23 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 ### 3. **Isomap**
 - **Concept:** A nonlinear dimensionality reduction technique that preserves **geodesic distances** between points by building a neighborhood graph and applying multidimensional scaling (MDS).  
 - **On Swiss Roll:** Successfully "unfolds" the dataset into a 2D plane while preserving the intrinsic geometry. One of the best-performing methods for this dataset.  
+<img width="1395" height="525" alt="newplot (26)" src="https://github.com/user-attachments/assets/f17222d3-b205-4bbe-9111-94e4885eeb2d" />
 
 ### 4. **Multidimensional Scaling (MDS)**
 - **Concept:** Embeds high-dimensional data into a lower-dimensional space by preserving pairwise distances as much as possible.  
 - **On Swiss Roll:** MDS captures global distances but struggles with highly nonlinear manifolds, leading to distortions in the unfolding.  
+<img width="1395" height="525" alt="newplot (25)" src="https://github.com/user-attachments/assets/b70196e3-b56c-43a9-954b-2f288cdc96af" />
 
 ### 5. **Locally Linear Embedding (LLE)**
 - **Concept:** A nonlinear dimensionality reduction method that preserves local linear relationships among neighbors.  
 - **On Swiss Roll:** Like Isomap, LLE unfolds the dataset effectively, showing strong performance in maintaining local geometry. However, it may introduce distortions near the boundaries.  
+<img width="1395" height="525" alt="newplot (27)" src="https://github.com/user-attachments/assets/90b3512a-7c59-46ad-838d-6fd5e0d8fc2e" />
 
 ### 6. **t-SNE**
 - **Concept:** Optimizes a probabilistic distribution of pairwise similarities in high- vs. low-dimensional space, commonly used for visualization.  
 - **On Swiss Roll:** Produces a meaningful 2D embedding, but its main focus is on preserving local neighborhoods and separating clusters, not necessarily unfolding the manifold perfectly.  
+<img width="1395" height="525" alt="newplot (29)" src="https://github.com/user-attachments/assets/b05bea73-d38e-48dc-bd7d-b884fca9421c" />
+
 
 ---
 
