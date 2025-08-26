@@ -1,4 +1,4 @@
-# Unfolding the Swiss Roll Dataset
+<img width="495" height="482" alt="image" src="https://github.com/user-attachments/assets/bf25ce90-c259-4931-9ee5-a539234a2b6d" /># Unfolding the Swiss Roll Dataset
 
 <img width="495" height="482" alt="image" src="https://github.com/user-attachments/assets/7cfd730a-5944-48b5-ae09-a7826208685f" />
 
@@ -23,6 +23,7 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 ### 1. **K-Means Clustering**
 - **Concept:** Partitions data into $k$ spherical clusters by minimizing within-cluster variance.  
 - **On Swiss Roll:** K-Means assigns clusters, but fails to respect the curved manifold structure — clusters are often sliced across the roll rather than along its natural unfolding.  
+![Uploading newplot (24).png…]()
 
 ### 2. **Gaussian Mixture Model (GMM)**
 - **Concept:** A probabilistic model assuming data is generated from a mixture of Gaussian distributions with different means and covariances.  
