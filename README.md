@@ -43,3 +43,15 @@ Its nonlinear, rolled-up structure makes it an excellent test case: simple clust
 - **On Swiss Roll:** Produces a meaningful 2D embedding, but its main focus is on preserving local neighborhoods and separating clusters, not necessarily unfolding the manifold perfectly.  
 
 ---
+
+
+##  Results
+
+- **Best Methods for Swiss Roll:**  
+  - **Isomap** → Best at preserving the intrinsic manifold structure.  
+  - **Locally Linear Embedding (LLE)** → Strong alternative with excellent unfolding capability.  
+
+- **Clustering methods (K-Means, GMM):** Provide partitions but fail to reflect the nonlinear geometry.  
+- **MDS & t-SNE:** Useful visualizations, but less effective at faithfully unfolding the roll compared to Isomap and LLE.  
+
+---
